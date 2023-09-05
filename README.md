@@ -10,13 +10,13 @@ make sure you have npm and golang install
 
 1. Clone the project
 
-2. cd frontend
-   npm install
+2. cd frontend then 
+   npm install then
    npm start
 
 Note: before moving to next step, create account in stripe account and go to developer setting copy the public key (pk_test_****) and paste it to stripePromise variable in StripePayment.jsx file in frontend folder and then copy the secret key (sk_test_****) into stripe.Key variable created in main.go in backend folder.
 
-3. cd backend
+3. cd backend then
    go run main.go
 
 Backend will start at :4242 Port.
